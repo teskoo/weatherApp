@@ -1,0 +1,37 @@
+.main__form{
+    padding: 50px 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    border-radius: 55px;
+}
+.input__container{
+    background-color: #585858;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    padding: 10px 16px;
+    border-radius: 55px;
+    min-width: 620px;
+    display: flex;
+}
+.input__container > input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 14px;
+    width: 100%;
+}
+.input__container > button {
+    border: none;
+    outline: none;
+    background: #fff;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__data{
+    margin-top: 45px;
+}
